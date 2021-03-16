@@ -30,7 +30,11 @@
 
           var fname = '';
           var lname = '';
-          var accountscount = '76';
+          var accountscount = '0';
+          
+          if(smart.hasOwnProperty('account')) {
+            var accountscount = '82';
+          }
 
           if (typeof patient.name[0] !== 'undefined') {
             fname = patient.name[0].given.join(' ');
