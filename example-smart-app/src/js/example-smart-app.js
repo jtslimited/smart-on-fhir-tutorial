@@ -129,6 +129,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+    $('#accountscount').html(p.accountscount);
   };
 
 })(window);
