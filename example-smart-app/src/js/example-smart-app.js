@@ -30,7 +30,7 @@
 
           var fname = '';
           var lname = '';
-          var accountscount = account.length;
+          var accountscount = '76';
 
           if (typeof patient.name[0] !== 'undefined') {
             fname = patient.name[0].given.join(' ');
