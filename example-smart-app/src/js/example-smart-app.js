@@ -31,7 +31,7 @@
           var fname = '';
           var lname = '';
           var accountscount = '0';
-          var smartobject = JSON.stringify(smart);
+          var smartobject = JSON.stringify(smart.patient);
           
           if(smart.hasOwnProperty('account')) {
             var accountscount = '82';
